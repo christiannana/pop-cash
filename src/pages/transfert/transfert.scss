@@ -1,0 +1,54 @@
+page-transfert {
+.button1{
+//background-color: rgb(139, 241, 107);
+    height: 50px;
+
+    font-weight: bold;
+}
+.div{
+height:40%;
+width:100%;
+//background-color: rgba(77, 63, 54, 0.383);
+ background-image: url('../assets/imgs/logo5.jpeg');
+background-size: cover;
+}
+.p1{
+  font-weight: bold;
+  font-size: 25px;
+ // font-style: italic;
+  font-family: cursive;
+  margin-top: -15px;
+ // position: fixed;
+  text-align: center;
+  z-index: 2;
+ // margin-left: 27%;
+  color: rgb(80, 5, 219)
+  
+ 
+}
+.p2{
+    font-weight: bold;
+  //  font-style: italic;
+    font-size: 18px;
+    color: rgb(93, 115, 238);
+  //  font-family: cursive;
+}
+
+.pub{
+    font-weight: bold;
+    font-size: 17px;
+   // font-style: italic;
+    font-family: cursive;
+    margin-top: -25px;
+  //  position: fixed;
+    text-align: center;
+    z-index: 2;
+  //  margin-left: 22%;
+    color: rgb(80, 5, 219)
+      
+}
+
+ion-grid{
+    margin-top: 12%
+}
+}

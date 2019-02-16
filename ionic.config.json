@@ -1,5 +1,7 @@
 {
   "name": "pop_cash",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

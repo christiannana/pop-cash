@@ -1,0 +1,35 @@
+<!--
+  Generated template for the ConnexionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content style="background-color: rgb(252, 244, 243);text-align:center; position:absolute;">
+
+  <div style="margin:15px;text-align:center">
+    <img style="margin:35px" width="100" height="100" src="assets/imgs/logo3.png" />
+
+    <ion-item>
+      <ion-label floating>
+        <ion-icon name="call"></ion-icon>  Téléphone
+      </ion-label>
+      <ion-input [(ngModel)]="phone" type="number"  clearInput></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>
+        <ion-icon name="lock"></ion-icon>  mot de passe
+      </ion-label>
+      <ion-input [(ngModel)]="password" type="password"  clearInput></ion-input>
+    </ion-item>
+
+    <button (click)="opentabs()" type="submit" ion-button block color="primary"
+      style="height:45px; margin-bottom:20px;  margin-top:25px; position:relative; color:white;  font-weight:bold">SE
+      CONNECTER</button>
+    <button (click)="openinscription()" type="submit" ion-button outline block color="primary"
+      style="height:45px; margin-bottom:30px; position:relative; color:rgb(28, 43, 253);  font-weight:bold">Créer un
+      Compte</button>
+
+
+  </div>
+
+</ion-content>

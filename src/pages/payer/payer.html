@@ -1,0 +1,36 @@
+<!--
+  Generated template for the PayerPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Effectuer un paiement</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+  <div class="div">
+  </div>
+ 
+  <ion-card *ngIf="montant">
+    <p class="p1">Vous etes sur le point d'éffectuer un paiement à <span style="color:blue; font-weight:bold">{{receveur_name }}  N° {{receveur}}</span>, veuillez vérifier le montant et valider l'opération. </p>
+    <p style="font-size:35px; font-weight:bold;color:black; text-align: center">
+     {{montant}}  F CFA.
+    </p>
+    <ion-grid>
+      <ion-row>
+        <ion-col> <button (click)="onAnnule()" type="submit" ion-button block color="danger"
+            style="height:45px; margin-bottom:20px;  margin-top:25px; position:relative; color:rgb(253, 251, 251);  font-weight:bold">
+            Annuler</button></ion-col>
+        <ion-col> <button (click)="onValidate()" type="submit" ion-button block color="primary"
+            style="height:45px; margin-bottom:20px;  margin-top:25px; position:relative; color:rgb(255, 255, 255);  font-weight:bold">
+            Valider</button></ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+
+</ion-content> 
